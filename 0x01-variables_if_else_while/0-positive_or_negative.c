@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  *main - entry point
+ *Prints a random number decides whether it is positive,negative,orzero.
  *Return 0;
- *
  */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	
 	if(n > 0){
         printf("%d is positive\n",n);
- 	       }
+ 	}
            
         else if(n < 0){ 
         printf("%d is negative\n", n);
