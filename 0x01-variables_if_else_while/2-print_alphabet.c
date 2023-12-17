@@ -5,6 +5,7 @@
  * A program that prints the alphabet in lowercase
  * Return: 0
  */
+
 int main(void)
 {
 	char alphabet;
@@ -14,6 +15,6 @@ int main(void)
 		putchar(alphabet);
 	}
 	putchar('\n');	
-	return 0;
+	return (0);
 }
 
