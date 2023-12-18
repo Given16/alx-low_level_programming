@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	
 	char alph;
 
 	char ALPH;
@@ -23,7 +22,6 @@ int main(void)
 	{
 		putchar(ALPH);
 	}
-	
 	putchar('\n');
 	return (0);
 }
