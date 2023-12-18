@@ -1,13 +1,20 @@
+#include <stdio.h>
+
 /**
-* main - program that prints the alphabet in lowercase
-*
-* Return: Always 0.
-*/
+ * main - entry point
+ * Program that prints the alphabet in lowercase
+ * Return: 0
+ */
+
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
-putchar('\n');
-return (0);
+	char alph;
+
+	for (alph = 'a'; alph <= 'z'; alph++)
+	{
+		putchar(alph);
+	}
+	putchar('\n');
+	return (0);
+
 }
