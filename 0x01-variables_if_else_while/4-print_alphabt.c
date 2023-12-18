@@ -1,20 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - entry point
- * Program that prints the alphabet in lowercase except p and e
- * Return (0)
- */
-
+* main - program that prints the alphabet in lowercase and upper
+case
+*
+* Return: Always 0.
+*/
 int main(void)
 {
-	char alph;
-
-	for (alph = 'a'; alph <= 'z'; alph++)
-	{
-	if (alph != 'p' && alph != 'e')
-	putchar(alph);
-	}
-	putchar('\n');
-	return(0);
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+if (letter != 'e' && letter != 'q')
+putchar(letter);
+}
+putchar('\n');
+return (0);
 }
