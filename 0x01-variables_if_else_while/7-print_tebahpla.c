@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * Program that prints the lowercase alphabet in reverse, followed by a new line.
+ * Program that prints the lowercase alphabet in reversei.
  * Return: (0)
  */
 
@@ -10,7 +10,7 @@ int main(void)
 {
 	char alph;
 	
-	for (alph = 'z'; alph >= 'a'; alph--)
+	for (alph = 'z'; alp >= 'a'; alph--)
 	{
 		putchar(alph);
 	}
